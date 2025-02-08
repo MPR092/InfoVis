@@ -51,6 +51,7 @@ export default function NavBarForm() {
         <div className="input-group-append mr-sm-2">
           <span className="input-group-text" >
             <Icon
+              as="span"
               className={`fa fa-${toggleIcon ? 'calendar' : 'pencil'}`}
               tabIndex={0}
               role="button"
@@ -66,6 +67,7 @@ export default function NavBarForm() {
         setTooltipOpen={setStartTimeTooltipOpen}
       />
       <EndTimeInput
+        as="input"
         className="form-control mr-sm-2"
         id="endTime"
         type="date"
