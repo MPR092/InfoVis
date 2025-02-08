@@ -5,7 +5,7 @@ import loader from './loader.gif';
 export default function Spinner() {
   return (
     <Container>
-      <Img src={loader} alt="loader" />
+      <Img as="img" src={loader} alt="loader" />
     </Container>
   );
 }
